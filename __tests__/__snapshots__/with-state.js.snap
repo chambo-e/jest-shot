@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ComponentWithState with custom state 1`] = `
+<div>
+  test snapshot 1
+</div>
+`;
+
+exports[`ComponentWithState with custom state bis 1`] = `
+<div>
+  should be snapshoted
+</div>
+`;
+
+exports[`ComponentWithState without state, should snap default state 1`] = `
+<div>
+  Should be snapshoted only when no setState
+</div>
+`;

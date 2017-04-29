@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NestedComponent without props, should snap full tree 1`] = `
+<NestedComponent>
+  <div>
+    <SimpleComponent>
+      <div>
+        Hello
+      </div>
+    </SimpleComponent>
+    World
+  </div>
+</NestedComponent>
+`;
+
+exports[`NestedComponent without props, should snap shallow 1`] = `
+<div>
+  <SimpleComponent />
+  World
+</div>
+`;

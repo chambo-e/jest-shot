@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ComponentWithProps mutation n°2 1`] = `
+<div>
+  should be snapshoted
+</div>
+`;
+
+exports[`ComponentWithProps with custom props 1`] = `
+<div>
+  test snapshot 1
+</div>
+`;
+
+exports[`ComponentWithProps without props, should snap default props 1`] = `
+<div>
+  Should only be snapshoted when no props
+</div>
+`;

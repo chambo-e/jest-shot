@@ -1,0 +1,55 @@
+{
+  "name": "jest-shot",
+  "version": "0.1.0",
+  "description": "A multi props/state React.Component jest snapshoter",
+  "main": "build/index.js",
+  "module": "src/index.js",
+  "repository": "https://github.com/chambo-e/jest-shot.git",
+  "author": "Emmanuel Chambon <manu@ehma.nu>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup src/index.js --format umd --name 'shot' --output build/index.js",
+    "release": "npm run build && standard-version"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^2.8.2",
+    "enzyme-to-json": "^1.5.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-test-renderer": "^15.5.4",
+    "remove": "^0.1.5"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-jest": "^19.0.0",
+    "babel-plugin-react": "^1.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "eslint-config-xo-react": "^0.11.1",
+    "eslint-plugin-react": "^6.10.3",
+    "jest": "^19.0.2",
+    "prop-types": "^15.5.8",
+    "rollup": "^0.41.6",
+    "standard-version": "^4.0.0",
+    "xo": "^0.18.1"
+  },
+  "xo": {
+    "extends": "xo-react",
+    "globals": [
+      "expect",
+      "describe",
+      "it"
+    ],
+    "rules": {
+      "object-curly-spacing": [
+        "error",
+        "always"
+      ],
+      "comma-dangle": [
+        "error",
+        "always-multiline"
+      ]
+    }
+  }
+}
