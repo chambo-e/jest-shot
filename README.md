@@ -1,7 +1,7 @@
 # `jest-shot` [![Build Status](https://travis-ci.org/chambo-e/jest-shot.svg?branch=master)](https://travis-ci.org/chambo-e/jest-shot) [![codecov](https://codecov.io/gh/chambo-e/jest-shot/branch/master/graph/badge.svg)](https://codecov.io/gh/chambo-e/jest-shot)
 
 
-A tiny helpers to snapshot a React Component under every angles.
+A tiny helper to snapshot a React Component under every angles.
 
 ## Install
 
@@ -91,7 +91,7 @@ exports[`can also snap full tree instead of a shallow snap`] = `
 <Simple>
 <div>
     hello
-    State status: dirty
+    State status: pristine
     <Nested>
         Yo nested!
     </Nested>
