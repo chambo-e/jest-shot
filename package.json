@@ -9,6 +9,7 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
+    "test:cover": "jest --coverage",
     "build": "rollup src/index.js --format umd --name 'shot' --output build/index.js",
     "release": "npm run build && standard-version"
   },
