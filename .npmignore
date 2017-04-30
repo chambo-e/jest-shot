@@ -63,5 +63,9 @@ typings/
 
 __tests__
 __components__
+.babelrc
+CHANGELOG.md
+.travis.yml
+.editorconfig
 
 # End of https://www.gitignore.io/api/node
